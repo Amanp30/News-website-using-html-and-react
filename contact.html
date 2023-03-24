@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css"> 
+    <link rel="stylesheet" href="footer.css"> 
+
+  
+    
+
+    <!-- Scripts -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+    <div id="navigation"></div>
+
+    <div class="normalpage">
+     <h1>Contact Us</h1>
+    <p>Thank you for your interest in contacting us! We would love to hear from you and are available to answer any questions you may have.</p>
+
+    <h2>Contact Information</h2>
+    <p>You can contact us using the following information:</p>
+    <ul>
+      <li>Email: info@yourwebsite.com</li>
+      <li>Phone: 555-555-5555</li>
+      <li>Mailing Address: 123 Main St, Anytown USA</li>
+    </ul>
+
+    <h2>Contact Form</h2>
+    <p>You can also send us a message using the form below:</p>
+    <form action="/contact" method="POST" class="contactform">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br/>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br/>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br/>
+
+      <button type="submit">Submit</button>
+    </form>
+    </div>
+
+    <div id="footer"></div>
+
+     <!-- To Load our React component. --> 
+    <script type="text/babel"  src="./Nav.js"></script> 
+    <script type="text/babel"  src="./Footer.js"></script> 
+    <script type="text/babel"  src="./Loader.js"></script> 
+   
+</body>
+</html>
