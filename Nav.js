@@ -82,8 +82,8 @@ function NavigationMenu() {
   }, [goingdown]); */
 
   var data = [
-    { text: "LATEST", link: "/about.html" },
-    { text: "INDIA", link: "/contact.html" },
+    { text: "LATEST", link: "./about.html" },
+    { text: "INDIA", link: "./contact.html" },
     { text: "VIDEO", link: "/" },
     { text: "OPINION", link: "/" },
     { text: "CITY", link: "/" },

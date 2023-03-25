@@ -36,7 +36,7 @@ function Thenews({
           <div className={imageright ? "dorightgrid" : ""}>
             <img
               src={image}
-              loading="lazy"
+              className="newsphoto"
               style={{ maxHeight: style, height: style }}
             />
             <h2 style={{ padding: padding ? padding : "" }}> {title}</h2>
