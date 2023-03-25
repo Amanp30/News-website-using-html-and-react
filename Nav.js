@@ -106,7 +106,7 @@ function NavigationMenu() {
     <>
       <div className={goingdown ? "navmenu down" : "navmenu"}>
         <div className={"logo"}>
-          <a href="/">
+          <a href="./index.html">
             <img
               src="logo.svg"
               className={goingdown ? "sizesmall" : "thelogo"}
